@@ -239,7 +239,7 @@ hr{
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     margin-top: 13%;
-    margin-bottom: 13%;
+    margin-bottom: 7%;
     color: #404040;
 }
 #presentation
@@ -247,7 +247,7 @@ hr{
     width: 100%;
     padding-top: 0.1em;
     padding-bottom: 0.1em;
-    margin-bottom: 100%;
+
 }
 .pContact
 {
@@ -328,25 +328,31 @@ a
     .nomGauche
     {
         display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.6em;
+        margin-left: auto;
+        margin-right: auto;
     }
     #contact
     {
         flex-direction: column;
         align-items: center;
         display: flex;
-        width : 80%;
+        width : 100%;
         padding-top: 0;
         padding-bottom: 0;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 3%;
+
     }
     .pContact
     {
         text-align: center;
         width: 100%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 0;
+        margin-left: 0;
         font-weight: bold;
     }
     #presentation
@@ -369,21 +375,28 @@ a
     }
     #loisir
     {
-        width: 80%;
-        margin-top : 0;
+        width: 100%;
+        margin-top : 2%;
         display: flex;
         flex-direction: column;
         position: initial;
+        margin-bottom : 2%;
+        margin-left: 0;
     }
     .iLoisir
     {
         padding: 0.5%;
         margin-bottom: 2%;
+
+    }
+    .iconesLoisir
+    {
+        margin-left: -5%;
     }
     #PhotoDP
     {
         margin-top: 10%;
-        margin-bottom: 15%;
+        margin-bottom: 6%;
     }
     .hrMedia
     {
@@ -395,5 +408,14 @@ a
     {
         width: 20%;
     }
-
+    li
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .description
+    {
+        align-items: center;
+    }
 }
